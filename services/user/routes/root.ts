@@ -8,7 +8,7 @@ declare module 'fastify' {
 }
 
 export default async function (fastify: FastifyInstance, opts: FastifyPluginOptions) {
-  fastify.get('/example', async (request, reply) => {
+  fastify.get('/users', async (request, reply) => {
     return { hello: fastify.example }
   })
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "https://platformatic.dev/schemas/v1.36.1/runtime",
-  "entrypoint": "user",
+  "entrypoint": "boards",
   "allowCycles": false,
   "hotReload": true,
   "autoload": {
